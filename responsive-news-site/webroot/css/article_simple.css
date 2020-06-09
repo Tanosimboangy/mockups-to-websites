@@ -39,11 +39,15 @@
 }
 
 @media (min-width:768px) {
-  .article_simple:nth-of-type(5) {
+  .article_simple + .article_simple ~ .article_simple {
     display: none;
   }
   .article_simple .article_image {
     height: 17rem;
+  }
+  .article_simple {
+    margin-block-start: 0;
+    margin-block-end: 0;
   }
 }
 

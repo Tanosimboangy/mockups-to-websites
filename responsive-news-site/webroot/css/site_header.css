@@ -47,9 +47,11 @@ body > header > p > a > span {
   body > header > p {
     display: none;
   }
-
   body > header {
     padding: 1.25rem;
+  }
+  body > header > h1 {
+    font-size: 13px;
   }
 
 }
