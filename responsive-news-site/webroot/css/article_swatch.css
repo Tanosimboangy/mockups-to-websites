@@ -54,3 +54,12 @@
   margin-block-start: 1rem;
   margin-block-end: 0;
 }
+
+@media (min-width:768px) {
+  .article_swatch .article_image {
+    height: 12rem;
+  }
+  .article_swatch {
+    margin: 0;
+  }
+}
