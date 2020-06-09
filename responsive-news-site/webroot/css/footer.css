@@ -58,3 +58,19 @@ body > footer a {
   justify-content: space-between;
   max-width: 8.5rem;
 }
+
+@media (min-width:768px) {
+  body > footer > h2 a {
+    font-family: 'Times New Roman', Times, serif;
+  }
+  body > footer {
+    padding: 3.75rem 5rem;
+  }
+  .links_site {
+    columns: 3;
+    margin: 0;
+  }
+  .link_primary {
+    display: block;
+  }
+}
