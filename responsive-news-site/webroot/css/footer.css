@@ -70,7 +70,24 @@ body > footer a {
     columns: 3;
     margin: 0;
   }
+  .links_site li {
+    margin: 0;
+  }
   .link_primary {
     display: block;
+  }
+  .link_primary a {
+    margin: 0;
+  }
+
+  footer:not(.article_footer) {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 50px;
+    row-gap: 50px;
+  }
+  .links_social {
+    order: 4;
   }
 }
