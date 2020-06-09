@@ -42,5 +42,8 @@
   .article_simple:nth-of-type(5) {
     display: none;
   }
+  .article_simple .article_image {
+    height: 17rem;
+  }
 }
 
