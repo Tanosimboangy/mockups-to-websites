@@ -25,3 +25,10 @@
 #section_more_news .category a {
   color: #FA6980;
 }
+
+@media (min-width:768px) {
+  .section_more_news:not(header) {
+    display: flex;
+    flex-direction: row;
+  }
+}

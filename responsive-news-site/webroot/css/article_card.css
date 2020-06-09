@@ -44,3 +44,14 @@
 .article_card .publication_details time {
   background-image: url(../images/icons/icon_clock_white.svg);
 }
+
+@media (min-width:768px) {
+  .article_card {
+    background-color: rgba(0,0,0,.05);
+    padding: 2rem 4.5rem;
+  }
+  .article_card .category {
+    margin-block-start: 0;
+    margin-block-end: 10rem;
+  }
+}
