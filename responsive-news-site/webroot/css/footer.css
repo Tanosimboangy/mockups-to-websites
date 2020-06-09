@@ -64,7 +64,7 @@ body > footer a {
     font-family: 'Times New Roman', Times, serif;
   }
   body > footer {
-    padding: 3.75rem 5rem;
+    padding: 3.5rem 4rem;
   }
   .links_site {
     columns: 3;
@@ -84,10 +84,14 @@ body > footer a {
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    column-gap: 50px;
-    row-gap: 50px;
+    column-gap: 40px;
+    row-gap: 20px;
   }
   .links_social {
     order: 4;
+  }
+  .links_social {
+    align-self: flex-end;
+    padding-inline-start: 150px;
   }
 }
