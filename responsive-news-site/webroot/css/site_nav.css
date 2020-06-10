@@ -141,3 +141,19 @@ body > nav > ul a:hover {
     display: none;
   }
 }
+
+@media (min-width:768px) {
+  body > nav > ul .icon {
+    padding: 16px 14.5px;
+    line-height: 1.25rem;
+  }
+  body > nav > ul a {
+    font-size: 0.70rem;
+
+  }
+}
+@media (min-width:1160px) {
+  .profile_link a img {
+    display: none;
+  }
+}
