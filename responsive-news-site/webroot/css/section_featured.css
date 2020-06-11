@@ -30,3 +30,13 @@
 
   }
 }
+@media (min-width:1160px) {
+  #section_featured {
+    max-width: 840px;
+    max-height: 600px;
+  }
+  #section_featured article {
+    padding-block-start: 11rem;
+    padding-block-end: 11rem;
+  }
+}
