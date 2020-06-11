@@ -55,3 +55,9 @@
     margin-block-end: 10rem;
   }
 }
+@media (min-width:1160px) {
+  .article_card {
+    padding-inline-start: 9rem;
+    padding-inline-end: 8em;
+  }
+}
