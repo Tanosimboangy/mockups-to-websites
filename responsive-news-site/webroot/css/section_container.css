@@ -34,4 +34,13 @@
   .article_swatch {
     display: block;
   }
+  .section_container article:not(.article_card) {
+    margin-block-end: 2rem;
+  }
+}
+@media (min-width: 768px)
+.section_container article:not(.article_card) {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-block-end: 2rem;
 }
