@@ -31,9 +31,6 @@
   }
 }
 @media (min-width:1160px) {
-  .section_container article:not(header) {
-
-  }
   .article_swatch {
     display: block;
   }

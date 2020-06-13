@@ -60,4 +60,8 @@
     padding-inline-start: 10rem;
     padding-inline-end: 9rem;
   }
+  .article_card .category {
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
 }

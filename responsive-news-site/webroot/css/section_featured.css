@@ -33,10 +33,9 @@
 @media (min-width:1160px) {
   #section_featured {
     width: 930px;
-
   }
   #section_featured article {
-    padding-block-start: 13rem;
-    padding-block-end: 13rem;
+    padding-block-start: 12rem;
+    padding-block-end: 0;
   }
 }
