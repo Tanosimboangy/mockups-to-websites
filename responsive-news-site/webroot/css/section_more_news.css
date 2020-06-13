@@ -47,11 +47,9 @@
 }
 @media (min-width:1160px) {
   #section_more_news {
-    clear: left;
-    float: right;
-  }
-  #section_more_news {
     display: flex;
     flex-direction: column;
+    clear: left;
+    float: right;
   }
 }
