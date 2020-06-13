@@ -101,25 +101,28 @@ body > footer a {
     grid-template-columns: auto;
     grid-template-rows: repeat(1, 1fr);
     grid-template-areas:
-    "item1 item2 item6 item3 item5 item4";
+    "item1 item2 item6 item7 item3 item5 item4";
   }
   footer > h2 {
     grid-area: item1;
     margin-inline-start: 5rem;
+    padding: 1rem;
   }
   .links_site {
     grid-area: item2;
-    font-size: 16px;
+    font-size: 13px;
+    padding: 1rem;
   }
   .links_social {
     grid-area: item4;
     align-self: start;
+    padding: 1rem;
   }
   .form_subscribe {
     grid-area: item3;
   }
   .links_social a {
-   padding: 1.5rem;
+   padding: 0 1.7rem;
   }
 
 }
