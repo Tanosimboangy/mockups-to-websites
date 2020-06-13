@@ -49,7 +49,6 @@
   #section_more_news {
     display: flex;
     flex-direction: column;
-    clear: left;
-    float: right;
+    max-height: 520px;
   }
 }
