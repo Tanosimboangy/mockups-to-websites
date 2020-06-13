@@ -1,3 +1,30 @@
 main {
   padding: 0;
 }
+
+@media (min-width:1160px) {
+  main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+    "item1 item2"
+    "item3 item3"
+    "item4 item4"
+    "item5 item5";
+  }
+  #section_featured {
+    grid-area: item1;
+  }
+  #section_more_news {
+    grid-area: item2;
+  }
+  #section_trending {
+    grid-area: item3;
+  }
+  #section_happening_now {
+    grid-area: item4;
+  }
+  .article_footer {
+    grid-area: item5;
+  }
+}
