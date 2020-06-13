@@ -53,13 +53,13 @@
   }
   .article_card:nth-of-type(1) {
     max-width: 760px;
-    height: 450px;
+    height: 425px;
     float: left;
   }
 
   .article_card:nth-of-type(2) {
     max-width: 760px;
-    height: 450px;
+    height: 425px;
     clear: left;
     float: left;
   }

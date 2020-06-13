@@ -52,7 +52,7 @@
 }
 @media (min-width:1160px) {
   .article_simple + .article_simple ~ .article_simple {
-    display: inline-flex;
+    display: flex;
   }
   .article_simple {
     max-width: 450px;
