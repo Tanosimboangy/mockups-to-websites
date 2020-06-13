@@ -46,3 +46,8 @@ nav > ul {
   margin: 0;
   padding: 0;
 }
+
+#section_more_news {
+  display: flex;
+  flex-direction: column;
+}

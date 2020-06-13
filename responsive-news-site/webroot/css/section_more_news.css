@@ -27,7 +27,6 @@
 }
 
 @media (min-width:768px) {
-
   #section_more_news {
     display:grid;
     grid-template-columns: repeat(2, 1fr);
@@ -44,5 +43,15 @@
   }
   .article_longform:nth-of-type(2) {
     grid-area: item2;
+  }
+}
+@media (min-width:1160px) {
+  #section_more_news {
+    clear: left;
+    float: right;
+  }
+  #section_more_news {
+    display: flex;
+    flex-direction: column;
   }
 }

@@ -62,4 +62,25 @@
   .article_swatch {
     margin: 0;
   }
+  .article_swatch .article_image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media (min-width:1160px) {
+  .article_swatch:last-of-type .article_image img {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+  }
 }

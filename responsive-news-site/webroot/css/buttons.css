@@ -21,3 +21,8 @@ a.button {
     padding: 0.9rem 1.5rem;
   }
 }
+@media (min-width: 768px) {
+.button {
+    padding: 0.88rem 1.6rem;
+  }
+}
