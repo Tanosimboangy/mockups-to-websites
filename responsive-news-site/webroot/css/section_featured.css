@@ -32,10 +32,11 @@
 }
 @media (min-width:1160px) {
   #section_featured {
-    width: 900px;
+    width: 935px;
+
   }
   #section_featured article {
-    padding-block-start: 11rem;
-    padding-block-end: 11rem;
+    padding-block-start: 14rem;
+    padding-block-end: 14rem;
   }
 }

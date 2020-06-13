@@ -46,6 +46,9 @@
 }
 @media (min-width:1160px) {
   #section_more_news {
+    padding-top: 5rem;
+    padding-block-start: 5rem;
+    padding-inline-start: 7rem;
     display: flex;
     flex-direction: column;
     max-height: 650px;
