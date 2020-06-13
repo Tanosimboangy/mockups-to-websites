@@ -95,3 +95,8 @@ body > footer a {
     padding-inline-start: 150px;
   }
 }
+/* @media (min-width:1160px) {
+  footer {
+    padding-inline-start: 4.5rem;
+  }
+} */

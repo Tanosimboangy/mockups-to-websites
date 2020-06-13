@@ -32,7 +32,7 @@
 }
 @media (min-width:1160px) {
   #section_featured {
-    width: 764px;
+    width: 900px;
   }
   #section_featured article {
     padding-block-start: 11rem;

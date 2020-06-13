@@ -30,6 +30,7 @@
 
 @media (min-width:1160px) {
   #section_trending {
+    margin-inline-start: 4.5rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas:

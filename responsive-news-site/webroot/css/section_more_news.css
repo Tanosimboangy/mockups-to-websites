@@ -30,7 +30,6 @@
   #section_more_news {
     display:grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 20px;
     grid-template-areas:
     "header header"
     "item1 item2";
@@ -49,6 +48,6 @@
   #section_more_news {
     display: flex;
     flex-direction: column;
-    max-height: 520px;
+    max-height: 650px;
   }
 }
