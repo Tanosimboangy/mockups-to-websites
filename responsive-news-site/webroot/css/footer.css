@@ -95,8 +95,24 @@ body > footer a {
     padding-inline-start: 150px;
   }
 }
-/* @media (min-width:1160px) {
-  footer {
-    padding-inline-start: 4.5rem;
+@media (min-width:1160px) {
+   footer:not(.article_footer) {
+    display: grid;
+    grid-template-columns: auto;
+    column-gap: 0;
+    grid-template-areas:
+    "item1 item2 item6 item3 item5 item4";
   }
-} */
+  footer > h2 {
+    grid-area: item1;
+  }
+  .links_site {
+    grid-area: item2;
+  }
+  .links_social {
+    grid-area: item4;
+  }
+  .form_subscribe {
+    grid-area: item3;
+  }
+}

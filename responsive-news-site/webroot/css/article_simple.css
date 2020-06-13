@@ -54,5 +54,18 @@
   .article_simple + .article_simple ~ .article_simple {
     display: inline-flex;
   }
+  .article_simple {
+    max-width: 450px;
+    max-height: 350px;
+  }
+  .article_simple:nth-of-type(1) {
+
+  }
+  .article_simple:nth-of-type(2) {
+
+  }
+  .article_simple:nth-of-type(3) {
+
+  }
 }
 

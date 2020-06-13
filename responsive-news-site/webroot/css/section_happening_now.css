@@ -49,38 +49,12 @@
 @media (min-width:1160px) {
   #section_happening_now {
     margin-inline-start: 4.5rem;
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-areas:
-    "header header header"
-    "item1 item1 item3"
-    "item1 item1 item3"
-    "item1 item1 item5"
-    "item2 item2 item5"
-    "item2 item2 item4"
-    "item2 item2 item4";
-  }
-  header {
-    grid-area: header;
   }
   .article_card:nth-of-type(1) {
-    grid-area: item1;
-  }
-  .article_card:nth-of-type(2) {
-    grid-area: item2;
-  }
-  .article_simple:nth-of-type(1) {
-    grid-area: item3;
-  }
-  .article_simple:nth-of-type(2) {
-    grid-area: item4;
-  }
-  .article_simple:nth-of-type(3) {
-    grid-area: item5;
+    max-width: 760px;
   }
 
-  /* .article_simple {
-    display: flex;
-    flex-direction: column;
-  } */
+  .article_card:nth-of-type(2) {
+    max-width: 760px;
+  }
 }

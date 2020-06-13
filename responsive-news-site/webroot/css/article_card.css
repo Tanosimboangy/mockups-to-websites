@@ -57,7 +57,7 @@
 }
 @media (min-width:1160px) {
   .article_card {
-    padding-inline-start: 9rem;
-    padding-inline-end: 8em;
+    padding-inline-start: 10rem;
+    padding-inline-end: 9rem;
   }
 }
