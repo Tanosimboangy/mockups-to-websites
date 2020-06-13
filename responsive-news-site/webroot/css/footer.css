@@ -99,20 +99,27 @@ body > footer a {
    footer:not(.article_footer) {
     display: grid;
     grid-template-columns: auto;
-    column-gap: 0;
+    grid-template-rows: repeat(1, 1fr);
     grid-template-areas:
     "item1 item2 item6 item3 item5 item4";
   }
   footer > h2 {
     grid-area: item1;
+    margin-inline-start: 5rem;
   }
   .links_site {
     grid-area: item2;
+    font-size: 16px;
   }
   .links_social {
     grid-area: item4;
+    align-self: start;
   }
   .form_subscribe {
     grid-area: item3;
   }
+  .links_social a {
+   padding: 1.5rem;
+  }
+
 }
