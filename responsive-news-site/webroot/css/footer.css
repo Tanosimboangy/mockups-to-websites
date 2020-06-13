@@ -105,7 +105,7 @@ body > footer a {
   }
   footer > h2 {
     grid-area: item1;
-    margin-inline-start: 5rem;
+    margin-inline-start: 4.5rem;
     padding: 1rem;
   }
   .links_site {
